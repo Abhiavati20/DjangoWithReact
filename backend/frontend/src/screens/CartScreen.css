@@ -1,0 +1,40 @@
+.cartScreen {
+  height: 73vh;
+  padding-top: 8%;
+  /* display: flex; */
+  width: 100%;
+}
+.card2 {
+  background-color: rgb(182, 178, 178);
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: 70%;
+  padding: 2%;
+}
+
+.root {
+  display: flex;
+  cursor: pointer;
+  margin-top: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3%;
+  width: 50%;
+  height: 50%;
+}
+.media {
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+.content {
+  width: 30%;
+  margin-top: 2%;
+  margin-left: 4%;
+}
+@media screen and (max-width: 660px) {
+  .root {
+    margin-top: 10%;
+  }
+}

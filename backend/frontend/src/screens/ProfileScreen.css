@@ -1,0 +1,13 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+.profileScreen {
+  display: flex;
+  margin-top: 5%;
+  margin-left: 2%;
+  margin-right: auto;
+  justify-content: center;
+}
+@media (max-width: 880px) {
+  .profileScreen {
+    flex-direction: column;
+  }
+}

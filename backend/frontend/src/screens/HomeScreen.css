@@ -1,0 +1,13 @@
+.homeScreen {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.homeScreen > h1 {
+  text-align: center;
+}
+
+@media (max-width: 850px) {
+  .homeScreen {
+    padding-top: 30%;
+  }
+}
